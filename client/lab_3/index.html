@@ -1,5 +1,46 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <title>Ethan's First Lab for INST377</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class = "wrapper">
+      <header class = "header"><h1>Ethan Hunt's Labs For INST377</h1></header>
+      <div class = "container">
+          <div class = "box left_section">
+            <h2>Albums</h2>
+            <ol class = "box">
+              <li>Circles - Mac Miller</li>
+              <li>OsshRock - Black Fortune</li>
+              <li>OsshMob - Black Fortune</li>
+              <li>Sorry 4 the OSSH - Black Fortune</li>
+              <li>I love life, thank you - Mac Miller</li>
+            </ol>
+        </div>
+        <div class = "box right_section">
+          <h2>Image carousel</h2>
+          <div class = "carousel">
+            <button class = "prev">prev</button>
+            <div class = "slides">
+              <div class = "carousel_item visible"><img id = "slide_1" alt = "dog-gif" src='images/dog.gif'/></div>
+              <div class = "carousel_item hidden"><img id = "slide_2" alt = "cat-jpg" src='images/cat.jpg'/></div>
+              <div class = "carousel_item hidden"><img id = "slide_3" alt = "dog-jpeg" src='images/dog.jpeg'/></div>
+              <div class = "carousel_item hidden"><img id = "slide_4" alt = "lizard-png" src='images/lizard.png'/></div>
+            </div>
+            <button class = "next">next</button>
+          </div>
+          <div class = "box">
+            The images are a dog gif, cat jpg, dog jpeg, and lizard png in that order
+          </div>
+        </div>
+      </div>
+      <footer class = "footer">
+        Github: <a href="https://github.com/ehunt124">ehunt124</a>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
